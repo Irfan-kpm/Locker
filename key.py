@@ -3,10 +3,10 @@
 import os
 import pyfiglet
 ######
-#os.system("pip install pyfiglet")
-#os.system("clear")
+os.system("pip install pyfiglet")
+os.system("clear")
 #####
-ascii_banner = pyfiglet.figlet_format("ENCRYPTER")
+ascii_banner = pyfiglet.figlet_format("LOCKER")
 print(ascii_banner)
 ####
 print("-----------[ @Irfan_kpm ]------------\n\n")
