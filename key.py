@@ -125,7 +125,7 @@ def Decode():
 ###
    inp=input("\nEnter crypted word: ")
    output=""
-   new="ba"
+   
    
   
    m=len(inp)
@@ -135,10 +135,10 @@ def Decode():
        ans=inp[i:i+3]      
        
            
-       list=["@","#","$","%","&","*","-","=","!","+","~",]
+       
        if inp.isupper()==False:           
-            if ans in list:
-            	new=name+"AB"
+            
+
             if ans=="m1n":
             	output=output+"A"            
             if ans== "mf5":
