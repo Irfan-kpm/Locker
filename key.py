@@ -195,7 +195,7 @@ def Decode():
      	       output+="Z"
    n=len(output)
    if str(k)==str(n):
-      print("Decrypted word : "+output)
+      print("\n\n[#] Decrypted word : "+output)
 
 
 print(25*"-")	
