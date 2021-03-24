@@ -3,8 +3,8 @@
 import os
 import pyfiglet
 ######
-#os.system("pip install pyfiglet")
-#os.system("clear")
+os.system("pip install pyfiglet")
+os.system("clear")
 #####
 ascii_banner = pyfiglet.figlet_format("ENCRYPTER")
 print(ascii_banner)
